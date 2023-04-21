@@ -4,6 +4,7 @@
   location: "Indianapolis, IN"
   slide_url: ""
   video_url: ""
+  format: "poster"
 
 - title: "Density-Functional Theory Investigation of Temperature-Governed Reaction mechanisms in CO2-Containing Li-O2 Batteries"
   date: 2023-03-28
@@ -11,13 +12,15 @@
   location: "Indianapolis, IN"
   slide_url: ""
   video_url: ""
-
+  format: "poster"
+  
 - title: "Effect of Molecualr Design of Polymer Electrolyte on Nanostructure and Transport Properties for Li-ion Batteries"
   date: 2023-03-28
   venue: "American Chemical Society Spring Meeting"
   location: "Indianapolis, IN"
   slide_url: ""
   video_url: ""
+  format: "talk"
 
 - title: "Uncovering Molecular Structure – Redox Potential Relationships for Organic Electrode Materials: A Hybrid DFT – Machine Learning Approach"
   date: 2022-10-13
@@ -25,6 +28,7 @@
   location: "Atlanta, GA"
   slide_url: ""
   video_url: ""
+  format: "talk"
 
 - title: "Carbon Quantum Dot Modified Reduced Graphene Oxide Framework for Improved Alkali Metal Ion Storage Performance"
   date: 2022-10-12
@@ -32,6 +36,7 @@
   location: "Atlanta, GA"
   slide_url: ""
   video_url: ""
+  format: "poster"
 
 - title: "Multiscale Simulation of Carbonate-Based Electrolytes for Li-Ion Battery"
   date: 2022-10-12
@@ -43,16 +48,18 @@
 - title: "Quasi-2D Hybrid Organic-Inorganic Perovskites: DFT Modeling Approach"
   date: 2022-05-23
   venue: "Materials Research Society Spring Meeting"
-  location: "Honolulu, Hawaii (attended Virtually)"
+  location: "Honolulu, Hawaii"
   slide_url: ""
   video_url: ""
+  format: "talk"
 
 - title: "Molecular Structure-Redox Potential Relationship for Organic Electrode Materials-Density Functional Theory-Machine Learning Approach"
   date: 2022-05-23
   venue: "Materials Research Society Spring Meeting"
-  location: "Honolulu, Hawaii (attended Virtually)"
+  location: "Honolulu, Hawaii"
   slide_url: ""
   video_url: ""
+  format: "talk"
 
 - title: "DFT - Machine Learning Approach Towards Organic Electrode Materials For Li-ion Battery"
   date: 2021-12-15
@@ -60,6 +67,7 @@
   location: "Anaheim, CA"
   slide_url: ""
   video_url: ""
+  format: "talk"
 
 - title: "Quasi-2D Hybrid Organic-Inorganic Perovskites: DFT Modeling Approach"
   date: 2019-11-10
@@ -67,6 +75,7 @@
   location: "Orlando, FL"
   slide_url: ""
   video_url: ""
+  format: "talk"
 
 - title: "Investigating Hybrid Organic-Inorganic Tin Perovskites for Li-Ion Battery Applications: DFT Modeling Approach"
   date: 2019-11-10

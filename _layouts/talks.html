@@ -1,37 +1,69 @@
 ---
 layout: default
 ---
+<header class="post-header">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="post-description">{{ page.description }}</p>
+</header>
 
 <div class="container publications">
-  <h1>{{ page.title }}</h1>
   {% assign sorted_talks = site.data.talks | sort: 'date' | reverse %}
   {% if sorted_talks.size > 0 %}
-    {% assign current_year = 0 %}
+    <h1>{{ page.title1}}</h1> 
     {% for talk in sorted_talks %}
-      {% assign talk_year = talk.date | date: "%Y" %}
-      {% if talk_year != current_year %}
-        <h2 class="year">{{ talk_year }}</h2>
-        {% assign current_year = talk_year %}
-      {% endif %}
-      <ol class="bibliography">
-        <li>
-          <span class="title word-wrap">{{ talk.title }}</span><br>
-          <em>{{ talk.venue }}</em><br>
-          {{ talk.location }}<br>
-          {% if talk.slide_url != "" %}
-            <a href="{{ talk.slide_url }}" target="_blank" class="btn">Slides</a>
-            {% if talk.video_url != "" %}
-              &nbsp;
+      {% if talk.format == "talk" %}
+        {% assign talk_year = talk.date | date: "%Y" %}
+        {% if talk_year != current_year %}
+          <h3 class="year">{{ talk_year }}</h3>
+          {% assign current_year = talk_year %}
+        {% endif %}
+        <ol class="bibliography">
+          <li>
+            <span class="title word-wrap">{{ talk.title }}</span><br>
+            <em>{{ talk.venue }}</em><br>
+            {{ talk.location }}<br>
+            {% if talk.slide_url != "" %}
+              <a href="{{ talk.slide_url }}" target="_blank" class="btn">Slides</a>
+              {% if talk.video_url != "" %}
+                &nbsp;
+              {% endif %}
             {% endif %}
-          {% endif %}
-          {% if talk.video_url != "" %}
-            <a href="{{ talk.video_url }}" target="_blank" class="btn">Video</a>
-          {% endif %}
-        </li>
-      </ol>
+            {% if talk.video_url != "" %}
+              <a href="{{ talk.video_url }}" target="_blank" class="btn">Video</a>
+            {% endif %}
+          </li>
+        </ol>
+      {% endif %}
+    {% endfor %}
+    {% assign current_year = 0 %}
+    <h1>{{ page.title2}}</h1>
+    {% for talk in sorted_talks %}
+      {% if talk.format != "talk" %}
+        {% assign talk_year = talk.date | date: "%Y" %}
+        {% if talk_year != current_year %}
+          <h3 class="year">{{ talk_year }}</h3>
+          {% assign current_year = talk_year %}
+        {% endif %}
+        <ol class="bibliography">
+          <li>
+            <span class="title word-wrap">{{ talk.title }}</span><br>
+            <em>{{ talk.venue }}</em><br>
+            {{ talk.location }}<br>
+            {% if talk.slide_url != "" %}
+              <a href="{{ talk.slide_url }}" target="_blank" class="btn">Slides</a>
+              {% if talk.video_url != "" %}
+                &nbsp;
+              {% endif %}
+            {% endif %}
+            {% if talk.video_url != "" %}
+              <a href="{{ talk.video_url }}" target="_blank" class="btn">Video</a>
+            {% endif %}
+          </li>
+        </ol>
+      {% endif %}
     {% endfor %}
   {% else %}
-    <p>No talks available.</p>
+    <p>No talks or posters available.</p>
   {% endif %}
 </div>
 
