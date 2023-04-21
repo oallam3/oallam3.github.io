@@ -17,7 +17,7 @@ Addressing the growing energy demands and environmental concerns necessitates th
 <br>
 
 ### Perovskite Materials for Optoelectronic Applications
-<img src="/assets/img/project2.jpeg"  width="750" height="270" style="float:top">
+<img src="/assets/img/project2_5.jpg"  width="750" height="217" style="float:center">
 <br>
 Perovskite materials have garnered significant attention due to their remarkable optoelectronic properties, making them promising candidates for applications in solar cells, light-emitting diodes, and other optoelectronic devices. However, challenges such as spectral instability and understanding the factors that control their bandgap need to be addressed. This project aims to investigate perovskite materials for optoelectronic applications, with a focus on understanding and controlling their bandgap and spectral stability. Through density functional theory (DFT) calculations and machine learning techniques, we analyze the factors that influence bandgap tunability and identify strategies to suppress halide migration, which is a major cause of spectral instability, ultimately paving the way for the development of stable perovskite optoelectronics with tailored properties.
 <br>
