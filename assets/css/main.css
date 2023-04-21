@@ -785,6 +785,14 @@ pre:active .copy, pre:focus .copy, pre:hover .copy {
   overflow-wrap: break-word;
 }
 
+.post-title {
+  font-size: 3em;
+}
+
+.post-description {
+  font-size: 1.2em;
+}
+
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
