@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 
 nav: true
 nav_order: 2
 display_categories: [work, fun]
@@ -37,6 +37,6 @@ The search for sustainable and efficient energy storage solutions is essential f
 <hr>
 <br>
 
-### Metaphotonics: Coded Visibility for Next Generation Battlefield Obscurants:
+### Metaphotonics: Coded Visibility for Next Generation Battlefield Obscurants
 <img src="/assets/img/project5.jpeg"  width="400" height="300" style="float:right">
 Density functional theory (DFT) and active learning approaches are employed to explore and guide the development of novel materials that fulfill strict military requirements for developing next-generation obscurant systems that offer an asymmetric advantage to warfighters, enhancing their visibility while suppressing adversary visibility and detection. DFT allows for accurate computational predictions of material properties and behaviors, while active learning techniques enable the efficient sampling and optimization of design parameters. Combining these methods, we effectively navigate the vast material design space to identify and optimize materials that meet the demanding performance criteria for military applications. This approach accelerates the development of novel materials, reducing the time and cost associated with experimental trial-and-error methods, ultimately supporting the advancement of military technology.

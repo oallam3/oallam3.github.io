@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Graduate Research Assistant at Georgia Tech | Specializing in Energy Storage and Conversion Technologies
+subtitle: Graduate Research Assistant at Georgia Tech | Specializing in <strong>Energy Storage and Conversion Technologies</strong>
 
 profile:
   align: right
@@ -18,5 +18,5 @@ social: true  # includes social icons at the bottom of the page
 
 Hello! I am a graduate student at Georgia Tech in the [Computational NanoBio Technology Lab](https://cnbt.mse.gatech.edu) and the [Energy Conversion and Storage Lab](https://escl.gatech.edu). I am co-advised by [Prof. Seung Soon Jang](https://research.gatech.edu/seung-soon-jang) and [Prof. Seung Woo Lee](https://research.gatech.edu/seung-woo-lee).
 
-Currently, my research interests broadly include using computational methods such as density functional theory, molecular dynamics, and machine learning to investigate a wide array of organic and hybrid organic–inorganic materials for optoelectronics, and energy storage and conversion applications.
+Currently, my research interests broadly include using computational methods such as <strong>density functional theory</strong>, <strong>molecular dynamics</strong>, and <strong>machine learning</strong> to investigate a wide array of organic and hybrid organic–inorganic materials for optoelectronics, and energy storage and conversion applications.
 
