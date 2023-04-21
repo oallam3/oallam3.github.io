@@ -520,7 +520,7 @@ footer.sticky-bottom {
   font-size: 1.5rem;
 }
 .publications h2.year {
-  color: var(--global-divider-color);
+  color: black; /* var(--global-divider-color); */
   border-top: 1px solid var(--global-divider-color);
   padding-top: 1rem;
   margin-top: 2rem;
@@ -562,6 +562,10 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .title {
   font-weight: bolder;
+  display: inline-block;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 80%; /* Adjust the width percentage if needed */
 }
 .publications ol.bibliography li .author a {
   border-bottom: 1px dashed var(--global-theme-color);
@@ -774,6 +778,11 @@ pre .copy:active, pre .copy:focus, pre .copy:hover {
 pre:active .copy, pre:focus .copy, pre:hover .copy {
   color: var(--global-hover-color);
   opacity: 1;
+}
+
+.word-wrap {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 /*******************************************************************************
