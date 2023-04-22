@@ -2,7 +2,7 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
+       <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}" style="display: flex; align-items: center; justify-content: center;">
         {%- if entry.preview -%}
           {% if entry.preview contains '://' -%}
           <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
@@ -62,12 +62,12 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-            <em>{{author.first}} {{author.last}}{% if entry.co_authors contains author.last %}<strong>**</strong>{% endif %}</em>
+            <em>{{author.first}} {{author.last}}{% if entry.co_authors contains author.last %}<span class="co-first-author">**</span>{% endif %}</em>
           {%- else -%}
             {%- if coauthor_url -%}
-              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}{% if entry.co_authors contains author.last %}<strong>**</strong>{% endif %}</a>
+              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}{% if entry.co_authors contains author.last %}<span class="co-first-author">**</span>{% endif %}</a>
             {%- else -%}
-              {{author.first}} {{author.last}}{% if entry.co_authors contains author.last %}<strong>**</strong>{% endif %}
+              {{author.first}} {{author.last}}{% if entry.co_authors contains author.last %}<span class="co-first-author">**</span>{% endif %}
             {%- endif -%}
           {%- endif -%}
         {%- endfor -%}

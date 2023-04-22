@@ -566,9 +566,12 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
-        width: 100%;
+        width: 170px;
+        height: 100px;
         min-width: 120px;
         max-width: 200px;
+        object-fit: contain;
+        margin-right: 10px;
       }
 
       .abbr {
@@ -594,6 +597,11 @@ footer.sticky-bottom {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
+      }
+
+      .row {
+        display: flex;
+        align-items: center;
       }
 
       .title {
@@ -882,3 +890,5 @@ pre {
   display: inline-block;
   border-bottom: none;
 }
+
+
