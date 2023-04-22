@@ -32,7 +32,8 @@ The search for sustainable and efficient energy storage solutions is essential f
 <br>
 
 ### Solid Polymer Electrolyte: Multiscale Modeling of  Carbonate-Based Polymer Electrolytes
-  We focus on developing novel carbonate-based solid polymer electrolytes (SPE) to overcome the limitations of conventional liquid electrolytes, such as flammability, mechanical instability, and electrode dissolution. Utilizing density functional theory (DFT) and molecular dynamics (MD) simulations, we investigate the impact of carbonate pendant group composition on nanophase morphology, Li-ion transport, and glass transition temperature (T_g). Our findings provide crucial insights for designing optimal polymeric systems with enhanced ion transport and safety, paving the way for the next generation of high-performance and reliable energy storage devices.
+<img src="/assets/img/project4_2.jpeg"  width="400" height="275" style="float:right">
+We focus on developing novel carbonate-based solid polymer electrolytes (SPE) to overcome the limitations of conventional liquid electrolytes, such as flammability, mechanical instability, and electrode dissolution. Utilizing density functional theory (DFT) and molecular dynamics (MD) simulations, we investigate the impact of carbonate pendant group composition on nanophase morphology, Li-ion transport, and glass transition temperature (T_g). Our findings provide crucial insights for designing optimal polymeric systems with enhanced ion transport and safety, paving the way for the next generation of high-performance and reliable energy storage devices.
 <br>
 <hr>
 <br>

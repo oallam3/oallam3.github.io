@@ -11,7 +11,8 @@ nav_order: 2
 <div class="publications">
 
 An up-to-date list is available on <a href="https://scholar.google.com/citations?user=OdzPaPIAAAAJ&hl=en&oi=ao">Google Scholar</a>.
-<strong>**</strong> Denotes co-first authorships
+<br>
+<strong>**</strong> Denotes co-first authorships.
 
 {%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
