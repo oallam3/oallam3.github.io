@@ -62,12 +62,12 @@
             {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
           {%- endif -%}
           {%- if author_is_self -%}
-            <em>{{author.first}} {{author.last}}{% if entry.co_authors contains author.last %}<span class="co-first-author">**</span>{% endif %}</em>
+            <em>{{author.first}} {{author.last}}{% if entry.co_authors contains author.last %}<strong>**</strong>{% endif %}</em>
           {%- else -%}
             {%- if coauthor_url -%}
-              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}{% if entry.co_authors contains author.last %}<span class="co-first-author">**</span>{% endif %}</a>
+              <a href="{{coauthor_url}}">{{author.first}} {{author.last}}{% if entry.co_authors contains author.last %}<strong>**</strong>{% endif %}</a>
             {%- else -%}
-              {{author.first}} {{author.last}}{% if entry.co_authors contains author.last %}<span class="co-first-author">**</span>{% endif %}
+              {{author.first}} {{author.last}}{% if entry.co_authors contains author.last %}<strong>**</strong>{% endif %}
             {%- endif -%}
           {%- endif -%}
         {%- endfor -%}
