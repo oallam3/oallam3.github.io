@@ -793,6 +793,13 @@ pre:active .copy, pre:focus .copy, pre:hover .copy {
   font-size: 1.2em;
 }
 
+.co-first-author {
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: none;
+}
+
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/
