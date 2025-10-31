@@ -1,0 +1,8 @@
+To see what it looks like before deployement:
+bundle exec jekyll serve --lsi 
+
+To deploy:
+git add .
+git commit -m "message"
+git push
+
